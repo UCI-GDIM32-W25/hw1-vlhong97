@@ -12,10 +12,13 @@ public class PlantCountUI : MonoBehaviour
         Debug.Log("PlantCountUI has " + seedsLeft);
         Debug.Log("PlantCountUI has " + seedsPlanted);
 
+        // where NullReferenceError occurs.
+        // has been disabled for the sake of uploading to itch.io suceessfully.
+
         // update UI for amount of seeds planted.
         _plantedText.text = seedsPlanted.ToString();
-        
-        // update UI for amount of seeds left in inventory.
+
+        // update UI for amount of seeds left in inventory. 
         _remainingText.text = seedsLeft.ToString();
     }
 }
