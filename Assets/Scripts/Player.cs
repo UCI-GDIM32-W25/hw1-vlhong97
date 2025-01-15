@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
         Debug.Log("Number of seeds planted : " + _numSeedsPlanted);
 
         // updates the UI to show number of seeds left/planted.
-        _plantCountUI = gameObject.AddComponent<PlantCountUI>();
         _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted);
     }
 
