@@ -44,14 +44,10 @@ found at line 48, starting the PlantSeed(); method where Instantiate(_plantPrefa
 found at line 55. The player starts out with only 5 seeds as established with the int _numSeeds = 5; at line 9, and can only plant 5
 seeds until they run out as done by the math in the PlantSeed(); method.
 
-When it comes to the UI object of the game, I've ran into errors so I can't exactly discern if it works correctly or not. I'll state
-what I can. The UI is established as four gameObjects underneath Canvas, UI for the words "Seeds remaining," "Seeds planted," and the 
-value amount for both categories. PlantSeed(); does the math to calculate the amount change whenever the player plants seeds into the
-scene and loses seeds from their possession. The amount is then supposed to be updated to the PlantCountUI script in line 65 where in 
-that script, UpdateSeeds(); method updates the UI text to display the calculated amounts. I'm sure I may have done the coding for this
-incorrectly as the method runs into a NullReferenceError... I've researched online for any possible solutions and have reached out to 
-the TA for help. They have provided me some pointers and I think I've gotten closer to figuring out the issue, but I've run out of time
-unfortunately. Next time, I'll book an appointment, I'm not able to attend office hours due to scheduling conflicts. 
+When it comes to the UI object of the game, the UI is established as four gameObjects underneath Canvas, UI for the words "Seeds 
+remaining," "Seeds planted," and the value amount for both categories. PlantSeed(); does the math to calculate the amount change 
+whenever the player plants seeds into the scene and loses seeds from their possession. The amount is then supposed to be updated to the 
+PlantCountUI script in line 65 where in that script, UpdateSeeds(); method updates the UI text to display the calculated amounts. 
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
